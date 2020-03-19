@@ -1,0 +1,39 @@
+percentage.txt % of `
+percentage.txt percent of `
+digit.txt tenths `
+digit.txt hundredths `
+digit.txt thousandths ` 
+digit.txt ones `
+digit.txt tens `
+digit.txt hundreds `
+digit.txt thousands `
+area.txt area of `
+area.txt area of perimeter `
+area.txt area of circumference `
+perimeter.txt perimeter of `
+volume.txt volume of `
+arithematic.txt square root `
+arithematic.txt cube root `
+arithematic.txt power `
+arithematic.txt divided by `
+arithematic.txt multiplied by `
+arithematic.txt subtracted from `
+arithematic.txt added `
+arithematic.txt plus `
+arithematic.txt minus `
+trignometry.txt sin `
+trignometry.txt cos `
+trignometry.txt tan `
+trignometry.txt cosec `
+trignometry.txt sec `
+trignometry.txt cot `
+constants.txt = `
+interest.txt compounded annually `
+interest.txt compounded yearly `
+interest.txt compounded monthly `
+interest.txt compounded quarterly `
+interest.txt simple interest `
+interest.txt compound interest `
+series.txt arithematic progression `
+series.txt term `
+constants.txt who am i `

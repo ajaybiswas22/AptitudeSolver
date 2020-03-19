@@ -1,0 +1,3 @@
+what is the X A of a series having first term as Y and a common difference of Z : ( Z * X ) + ( Y - Z )
+Find the X K term of the arithmetic sequence  A , B , C , ... : ( ( B - A ) * X ) + ( A - ( B - A ) )
+what is the sum of the arithematic progression A , B , C , ... , X Y term : ( X / 2 ) * ( ( 2 * A ) + ( ( X - 1 ) * ( B - A ) ) )

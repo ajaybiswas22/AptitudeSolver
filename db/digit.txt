@@ -1,0 +1,7 @@
+what is ones place of X : ( X % 10 ) - ( X % 1 )
+what is tens place of X : ( ( X / 10 ) % 10 ) - ( ( X / 10 ) % 1 )
+what is hundreds place of X : ( ( X / 100 ) % 10 ) - ( ( X / 100 ) % 1 )
+what is thousands place of X : ( ( X / 1000 ) % 10 ) - ( ( X / 1000 ) % 1 )
+what is tenths place of X : ( ( X * 10 ) % 10 ) - ( ( X * 10 ) % 1 )
+what is hundredths place of X : ( ( X * 100 ) % 10 ) - ( ( X * 100 ) % 1 )
+what is thousandths place of X : ( ( X * 1000 ) % 10 ) - ( ( X * 1000 ) % 1 )

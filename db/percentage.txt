@@ -1,0 +1,7 @@
+what is X % of Y : ( X / 100 ) * Y
+what is X percent of Y : ( X / 100 ) * Y
+X % of Y : ( X / 100 ) * Y
+X percent of Y : ( X / 100 ) * Y
+X is Y percent of what number : ( X * 100 ) / Y
+X is Y % of what number : ( X * 100 ) / Y
+X percent of Y is what percent of Z : ( ( X / 100 ) * Y * 100 ) / Z

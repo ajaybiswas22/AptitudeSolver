@@ -1,0 +1,125 @@
+<CustButton@Button>:
+    font_size: 32
+<CustLabel@Label>
+    color: 1, 1, 1, 1
+    font_size: 28
+
+<CalcGridLayout>:
+    id: calculator
+    display: entry
+    rows: 9
+    padding: 10
+    spacing: 10
+
+    BoxLayout:
+        size_hint_y: None
+        height: 30
+        spacing: 10
+
+        canvas:
+            Color:
+                rgba: 0, 0, 0, 1
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        Button:
+            background_normal: 'gui/help.png'
+            background_down: 'gui/helpd.png'
+            size_hint_x: None
+            width: 30
+            on_press: calculator.linkopen()
+        Button:
+            background_normal: 'gui/bug.png'
+            background_down: 'gui/bugd.png'
+            size_hint_x: None
+            width: 30
+            on_press: calculator.linkopen()     
+    BoxLayout:
+        CustLabel:
+            text: "QUERY"
+    BoxLayout:
+        TextInput:
+            id: entry
+            font_size: 16
+            multiline: True
+    BoxLayout:
+        CustLabel:
+            text: "1"
+        CustLabel:
+            text: "2"
+        CustLabel:
+            text: "3"
+        CustLabel:
+            text: "4"
+
+    BoxLayout:
+        spacing: 10
+        TextInput:
+            id: option1
+            font_size: 16
+            multiline: False
+        TextInput:
+            id: option2
+            font_size: 16
+            multiline: False
+        TextInput:
+            id: option3
+            font_size: 16
+            multiline: False
+
+        TextInput:
+            id: option4
+            font_size: 16
+            multiline: False
+
+    BoxLayout:
+        spacing: 10
+        CustLabel:
+            text: "CHOICE"
+        TextInput:
+            id: choice
+            font_size: 16
+            multiline: False
+
+    BoxLayout:
+        orientation: "horizontal"
+        height: 30
+	
+	BoxLayout:
+	    orientation: "horizontal"
+	    size_hint_x: .25
+
+        CustLabel:
+            text: "EFFICIENCY"
+
+        CustLabel:
+            text: str(slider_id.value)
+
+        Slider:
+            id: slider_id
+            min: 0
+            max: 100
+            value: 100
+            step: 1
+
+    BoxLayout:
+        spacing: 10
+        CustButton:
+            text: "CALCULATE"
+            on_press:
+                calculator.calculate(entry.text) 
+                if not entry.text or entry.text == "Error": entry.text = "Error"
+                if not option1.text: option1.text = "0"
+                if not option2.text: option2.text = "0"
+                if not option3.text: option3.text = "0"
+                if not option4.text: option4.text = "0"
+                choice.text = calculator.optionate(entry.text, option1.text, option2.text, option3.text, option4.text, slider_id.value)
+                              
+        CustButton:
+            text: "RESET"
+            on_press: option1.text = ""
+            on_press: option2.text = ""
+            on_press: option3.text = ""
+            on_press: option4.text = ""
+            on_press: entry.text = ""
+            on_press: choice.text = ""

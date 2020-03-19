@@ -1,0 +1,10 @@
+pi X : 3.14159265
+exp X : 2.71828183
+golden ratio X : 1.618033988749
+i X : -1 sqrt -1
+chandrasekhar limit X : 2.765e+30
+who am i : ajaybiswas
+astronomical unit X : 149597870700
+avogadro constant X : 6.022e+23
+c X : 299792458
+shake X : 1e-8

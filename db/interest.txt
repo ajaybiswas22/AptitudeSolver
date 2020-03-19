@@ -1,0 +1,5 @@
+What is the amount recieved after investing A B at the rate of C % for D years compounded annually : B * ( ( 1 + ( C / 100 ) ) ^ D )
+What is the amount recieved after investing A B at the rate of C % for D years compounded quaterly : B * ( ( 1 + ( C / 100 ) ) ^ ( 4 * D ) )
+What is the amount recieved after investing A B at the rate of C % for D years compounded half yearly : B * ( ( 1 + ( C / 100 ) ) ^ ( 2 * D ) )
+What is the amount recieved after investing A B at the rate of C % for D years compounded annually : B * ( ( 1 + ( C / 100 ) ) ^ D )
+What is the amount recieved after investing A B at the rate of C % for D years compounded annually : B * ( ( 1 + ( C / 100 ) ) ^ D )
