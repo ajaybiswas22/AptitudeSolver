@@ -6,17 +6,17 @@ See the documentation folder for undertanding the working principle.
 1. How to add formulas to the database
 
 The db folder contains the database. To add your own formulas, first create a text file, eg. percentage.txt.
-To add formulas and the problem definition, use the following style.
+To add formulas and the problem definition, use the following style (without quotes).
 
-X percent of Y : ( X / 100 ) * Y
+"X percent of Y : ( X / 100 ) * Y"
 
 The LHS part before the colon, is the problem definition. X and Y are variables. The RHS part contains the formula.
-Now update x.txt file so that this formula can be referenced.
+Now update x.txt file so that this formula can be referenced. Use the following style (without quotes).
 
-percentage.txt % of `
-percentage.txt percent of `
+"percentage.txt % of \`"
+"percentage.txt percent of \`"
 
-The first word determines the location and remaining words except " ` " are keywords.
+The first word determines the location and remaining words except " \` " are keywords.
 
 2. Future Work
 
