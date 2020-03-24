@@ -237,7 +237,7 @@ class CalcGridLayout(GridLayout):
             self.display.text = "Error"
 
     def linkopen(self):
-      webbrowser.open('https://imcrazybuild.blogspot.com/')
+      webbrowser.open('https://github.com/ajaybiswas22/AptitudeSolver/')
 
     def optionate(self, entry, option1, option2, option3, option4, slider):
       if entry:
