@@ -1,7 +1,6 @@
 # AptitudeSolver
 
-A Python and TKInter based Aptitude Solver.
-See the documentation folder for undertanding the working principle.
+An general aptitude question solver made using python.
 
 ## How to add formulas to the database
 
